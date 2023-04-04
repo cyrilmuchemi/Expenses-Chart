@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 2rem;
+    padding-inline: 2rem;
+    justify-content: center;
+    background: hsl(27, 66%, 92%);
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    background-color: blue ;
+    display: flex;
+    align-self: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    margin-top: 2rem;
+    position: relative;
+    justify-content: space-between;
+    height: 15vh;
+    border-radius: 8px;
+    align-items: center;
+    background-color: hsl(10, 79%, 65%);
+    width: 100%;
+}
+
+.circle {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.header-circles {
+    display: flex;
+    padding-right: 1rem;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 13px;
+}
+
+#white {
+    position: absolute;
+    right: 2.5rem;
+
+}
+
+#black {
+    background-color:  hsl(25, 47%, 15%);
+    border-color:  hsl(25, 47%, 15%);
+}
+
+.chart-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    background:  white;
+    border-radius: 8px;
+    width: 100%;
+    height: 60vh;
+}
+
+h1 {
+    color: hsl(25, 47%, 15%);
+    font-size: 28px;
+}
