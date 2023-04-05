@@ -67,8 +67,6 @@
 }
 
 .chart-body {
-    display: flex;
-    flex-direction: column;
     margin-top: 2rem;
     background:  white;
     border-radius: 8px;
@@ -79,4 +77,17 @@
 h1 {
     color: hsl(25, 47%, 15%);
     font-size: 28px;
+}
+
+
+svg {
+    background-color: green;
+}
+
+#chart-info {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }

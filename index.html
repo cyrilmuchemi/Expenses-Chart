@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <title>Expense Chart</title>
 </head>
 <body>
@@ -24,8 +25,10 @@
                 <div id="black" class="circle"></div>
             </div>
         </div>
-        <div class="chart-body">
-            <h1>Spending - Last 7 days</h1>
+        <div class="chart-container">
+           <h1>Spending - Last 7 days</h1>
+        <div id="chart-body" class="chart-body">
+        </div>
         </div>
     </div>
     </section>
